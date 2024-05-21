@@ -1,0 +1,12 @@
+<script>
+   let numero = prompt("digite seu numero aqui")
+function calcularfatorial(numero){
+if (numero === 0 || numero === 1){
+    return 1;
+  }else {
+     return numero * calcularfatorial(numero - 1);
+  }
+
+}
+document.write("o fatorial de" + numero + "e :" + calcularfatorial(numero));
+</script>
